@@ -469,7 +469,7 @@ When a [miner](#miner) finds a valid [block](#block), another miner may have pub
 
 ### Optimistic rollup {#optimistic-rollup}
 
-A [rollup](#rollups) of transactions that use [fraud proofs](#fraud-proof) to offer increased [layer 2](#layer-2) transaction throughput while using the security provided by [Mainnet](#mainnet) (layer 1). Unlike [Plasma](#plasma), a similar layer 2 solution, Optimistic rollups can handle more complex transaction types – anything possible in the [EVM](#evm). They do have latency issues compared to [Zero-knowledge rollups](#zk-rollups) because a transaction can be challenged via the fraud proof.
+A [rollup](#rollups) of transactions that use [fraud proofs](#fraud-proof) to offer increased [layer 2](#layer-2) transaction throughput while using the security provided by [Mainnet](#mainnet) (layer 1). Unlike [Plasma](#plasma), a similar layer 2 solution, Optimistic rollups can handle more complex transaction types – anything possible in the [EVM](#evm). They do have latency issues compared to [Zero-knowledge rollups](#zk-rollup) because a transaction can be challenged via the fraud proof.
 
 <DocLink to="/developers/docs/scaling/layer-2-rollups/#optimistic-rollups" title="Optimistic Rollups" />
 
@@ -483,7 +483,7 @@ One of the most prominent interoperable implementations of the Ethereum client s
 
 ### Plasma {#plasma}
 
-An off-chain scaling solution that uses [fraud proofs](#fraud-proof), like [Optimistic rollups](#optimistic-rollups). Plasma is limited to simple transactions like basic token transfers and swaps.
+An off-chain scaling solution that uses [fraud proofs](#fraud-proof), like [Optimistic rollups](#optimistic-rollup). Plasma is limited to simple transactions like basic token transfers and swaps.
 
 <DocLink to="/developers/docs/scaling/plasma" title="Plasma" />
 
@@ -551,7 +551,7 @@ A family of cryptographic hash functions published by the National Institute of 
 
 ### shard / shard chain {#shard}
 
-A [proof-of-stake](#proof-of-stake) chain that is coordinated by the [Beacon Chain](#beacon-chain) and secured by [validators](#validator). There will be 64 added to the network as part of the Eth2 shard chain upgrade. Shard chains will offer increased transaction throughput for Ethereum by providing additional data to [layer 2](#layer-2) solutions like [optimistic rollups](#optimistic-rollups) and [ZK-rollups](#zk-rollups).
+A [proof-of-stake](#proof-of-stake) chain that is coordinated by the [Beacon Chain](#beacon-chain) and secured by [validators](#validator). There will be 64 added to the network as part of the Eth2 shard chain upgrade. Shard chains will offer increased transaction throughput for Ethereum by providing additional data to [layer 2](#layer-2) solutions like [optimistic rollups](#optimistic-rollup) and [ZK-rollups](#zk-rollups).
 
 <DocLink to="/eth2/shard-chains" title="Shard chains" />
 
@@ -710,7 +710,7 @@ A special Ethereum address, composed entirely of zeros, that is specified as the
 
 ### Zero-knowledge rollup {#zk-rollup}
 
-A [rollup](#rollups) of transactions that use [validity proofs](#validity-proof) to offer increased [layer 2](#layer-2) transaction throughput while using the security provided by [Mainnet](#mainnet) (layer 1). Although they can't handle complex transaction types, like [Optimistic rollups](#optimistic-rollups), they don't have latency issues because transactions are provably valid when submitted.
+A [rollup](#rollups) of transactions that use [validity proofs](#validity-proof) to offer increased [layer 2](#layer-2) transaction throughput while using the security provided by [Mainnet](#mainnet) (layer 1). Although they can't handle complex transaction types, like [Optimistic rollups](#optimistic-rollup), they don't have latency issues because transactions are provably valid when submitted.
 
 <DocLink to="/developers/docs/scaling/layer-2-rollups/#zk-rollups" title="Zero-knowledge Rollups" />
 
