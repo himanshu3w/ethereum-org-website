@@ -524,7 +524,7 @@ principles:
     make a small protocol modification in one place, the application
     stack would continue to function without any further modification.
     Innovations such as Ethash (see the [Yellow Paper Appendix](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J)
-    or [wiki article](https://github.com/ethereum/wiki/wiki/Ethash)),
+    or [wiki article](https://eth.wiki/en/concepts/ethash/ethash)),
     modified Patricia trees ([Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.D),
     [wiki](https://eth.wiki/en/fundamentals/patricia-tree))
     and RLP
